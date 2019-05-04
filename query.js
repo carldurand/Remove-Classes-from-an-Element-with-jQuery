@@ -1,7 +1,9 @@
 <script>
   $(document).ready(function() {
-    $("#target1").css("color", "red");
-    $("#target4").html("<em>#target4</em>");
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+    $("#target3").addClass("animated fadeOut");
+$("button").removeClass("btn-default");
   });
 </script>
 
