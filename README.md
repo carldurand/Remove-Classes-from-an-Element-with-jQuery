@@ -1,4 +1,5 @@
-The rest operator eliminates the need to check the args array and allows us to apply map(), filter() and reduce() on the parameters array.
+Here's how you would do this for a specific button:
 
+$("#target2").removeClass("btn-default");
 
-Modify the function sum so that it uses the rest operator and it works in the same way with any number of parameters.
+Let's remove the btn-default class from all of our button elements.
